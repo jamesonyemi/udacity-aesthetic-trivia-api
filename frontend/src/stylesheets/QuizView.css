@@ -1,0 +1,63 @@
+.quiz-play-holder {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.category-holder {
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.choose-header {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.play-category {
+    margin: 5px 0;
+}
+
+.play-category:hover {
+    color: dodgerblue;
+    transform: scale(1.1);
+}
+
+.button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 7px;
+    background-color: dodgerblue;
+    color: white;
+    align-self: center;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+}
+
+div.button {
+    margin-top: 20px;
+    margin-left: calc(50% - 70px);
+}
+
+.quiz-question {
+    margin: 12px;
+    font-size: 24px;
+}
+
+input.guess {
+    padding: 5px;
+}
+
+.submit-guess {
+    width: 120px;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}

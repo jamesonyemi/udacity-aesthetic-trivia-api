@@ -1,0 +1,49 @@
+.App-header {
+  width: 80%;
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 75px;
+  padding: 20px;
+  padding-right: 40%;
+  padding-left: 5%;
+}
+
+.App-header>* {
+  margin-right: 20px;
+}
+
+.App-header>h1 {
+  color: dodgerblue;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
